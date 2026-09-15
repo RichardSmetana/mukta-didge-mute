@@ -46,9 +46,9 @@ Die Konstruktion verwendet **Expansionsraum, ein perforiertes Innenrohr und offe
 **Planversion:** 1.0  
 **Maßgebliche Konstruktion:** kompakter HT-DN75-Dämpfer, Gesamtlänge 180 mm
 
-Die Konstruktionszeichnung ist die Quelle für Teile und Maße. Der Text in dieser Datei ist daran angeglichen.
+Die deutsche Konstruktionszeichnung ist die Quelle für Teile und Maße in **dieser** Datei.
 
-Eine frühere Skizze in diesem Repository beschrieb ein größeres DN125-Gehäuse mit etwa 400 mm Länge. Diese Geometrie ist **nicht** der aktuelle Bau. Längere oder größere Gehäuse bleiben optionale spätere Varianten.
+Die [englische Dokumentation](./README.md) folgt dem englischen Plan **DN125, Version 0.1 (Vorprototyp)**, Gesamtlänge ca. 440 mm. Das ist eine andere, größere Konzeptvariante — kein Übersetzungsfehler.
 
 ---
 
@@ -431,7 +431,8 @@ Später hinzukommende Software kann separat lizenziert werden.
 | ----- | ----- |
 | [`docs/logo.png`](./docs/logo.png) | Projektlogo (transparent) |
 | [`docs/logo.jpg`](./docs/logo.jpg) | Projektlogo (Original) |
-| [`docs/construction-plan.png`](./docs/construction-plan.png) | Konstruktionsplan v1.0 (deutsches Original) |
+| [`docs/construction-plan.png`](./docs/construction-plan.png) | Deutscher Konstruktionsplan (kompaktes DN75) |
+| [`docs/construction-plan-en.jpg`](./docs/construction-plan-en.jpg) | Englischer Konstruktionsplan v0.1 (DN125) |
 | [`README.md`](./README.md) | englische Dokumentation |
 | [`README_DE.md`](./README_DE.md) | deutsche Dokumentation |
 | [`LICENSE`](./LICENSE) | CERN-OHL-P-2.0 |

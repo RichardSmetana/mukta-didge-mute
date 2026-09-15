@@ -6,181 +6,194 @@
 
 <p align="center"><strong>Quieter practice. More music.</strong></p>
 
-<p align="center">DIY · Open Hardware · Experimental</p>
+<p align="center">DIY Design Concept · Open Hardware · Version 0.1 (Pre-Prototype)</p>
 
 <p align="center">
   <a href="./README.md">English</a> ·
   <a href="./README_DE.md">Deutsch</a>
 </p>
 
-A compact DIY acoustic mute for quieter didgeridoo practice at home.
+An experimental DIY acoustic mute for quieter didgeridoo practice.
 
-The design uses an **expansion space, a perforated inner tube and open-cell acoustic foam** instead of simply blocking the bell. Air can still leave through a small outlet, so the instrument should keep more of its normal playing feel than a closed plug.
+The proposed design uses an **expansion chamber, a perforated inner tube and acoustic absorber** instead of simply closing the bell. Air still leaves through a replaceable outlet, so playing feel should stay closer to the open instrument than with a blocked plug.
 
 > This is an experimental DIY practice mute. It will not make a didgeridoo completely silent.
 
 > [!IMPORTANT]
 >
-> ## Experimental open-hardware design
+> ## Design idea / pre-prototype
 >
-> This repository documents a **compact DN75 construction plan** (plan version 1.0).
+> **This English documentation describes a design idea. It has not been tested yet.**
 >
-> It is a DIY practice device, not a certified acoustic, medical or stage product. Dimensions, materials and the loudness figures on the drawing are **guide values**. They can change after independent prototype tests.
+> Dimensions and materials are **preliminary** and may change after practical testing.
 >
-> Planned next steps:
+> The next stage of the project will include:
 >
-> * build one or more prototypes from this plan
-> * judge playing feel and back pressure
-> * measure sound level with and without the mute
-> * compare outlet diameters
-> * try different absorber foams
-> * publish measured results and revised drawings here
+> * construction of one or more prototypes
+> * subjective evaluation of playing feel and back pressure
+> * sound-level measurements with and without the mute
+> * comparison of outlet diameters Ø50 / Ø40 / Ø32 mm
+> * testing of different absorber materials
+> * frequency-spectrum measurements where possible
+> * optimization of dimensions based on the results
 >
-> Treat the current status as **construction plan v1.0 — experimental**, not as a finished, lab-validated product.
+> **Experimental results and revised blueprints will be published in this repository.**
+>
+> Current status: **Version 0.1 — Concept / Pre-Prototype**, not a finished or validated design.
+
+The German README currently documents a **compact DN75 variant**. This English README follows the English construction plan below (**DN125, v0.1**).
 
 ---
 
 ## Current project status
 
-**Status:** Experimental DIY construction plan  
-**Plan version:** 1.0  
-**Canonical design:** compact HT DN75 mute, overall length 180 mm
+**Status:** Design idea / pre-prototype  
+**Version:** 0.1  
+**Construction plan:** DN125 housing, overall length ~440 mm
 
-The construction drawing is the source of truth for parts and dimensions. Text in this README is aligned with that drawing.
-
-A larger DN125 / ~400 mm concept was sketched earlier in this repository. That geometry is **not** the current build. Longer or larger housings remain optional later variants.
+The English drawing is the source of truth for parts and dimensions in this file.
 
 ---
 
 ## Features intended by the design
 
-* Passive construction — no electronics
-* Low-cost standard HT plumbing parts
-* Open-cell acoustic foam (replaceable)
-* Perforated inner tube
-* Hose-clamp bell coupling for typical practice didgeridoos
-* Interchangeable / drillable outlet insert
-* Relatively low extra back pressure with the larger outlets
-* Intended to reduce higher harmonics and buzzing more than the fundamental
-* Easy to modify for experiments
+* Passive design
+* No electronics required
+* Low cost
+* Standard pipe components
+* Replaceable bell adapter
+* Adjustable outlet diameter
+* Low additional back pressure
+* Reduction of higher harmonics and buzz
+* Adaptable to different didgeridoos
+* Easy to modify and experiment
 
 ---
 
 ## How it is intended to work
 
-A didgeridoo produces a strong low fundamental plus many harmonics.
+A didgeridoo produces a strong low-frequency fundamental together with many harmonics.
 
-Simply blocking the bell lowers volume, but it also raises back pressure and changes the instrument a lot.
+Simply blocking the bell reduces volume, but also greatly increases back pressure and changes the instrument.
 
-This mute uses three stages:
+The proposed design therefore uses three acoustic stages:
 
-1. **Front coupling and expansion space**  
-   The bell is sealed with a hose clamp around the DN75 housing. Behind the bell there is free volume before the perforated tube.
+1. **Expansion chamber**  
+   Air leaving the didgeridoo first enters a larger chamber (about 80 mm).
 
 2. **Perforated inner tube**  
-   Air continues through a short DN50 tube with staggered holes. Acoustic energy can pass through those holes into the surrounding foam.
+   The airflow then continues through a Ø50 mm perforated tube. Acoustic energy can pass through the holes into the surrounding absorber.
 
-3. **Acoustic foam and open outlet**  
-   Open-cell foam absorbs part of the energy, especially at higher frequencies. A DN25 outlet keeps the airflow path open.
+3. **Acoustic absorber**  
+   Open-cell acoustic foam or PET felt is intended to absorb part of the energy, especially at higher frequencies.
 
-The operating principle is plausible. How well this exact compact layout works still needs to be measured independently and documented in this repository.
+The exhaust remains open so that airflow can continue through the system.
+
+This operating principle is plausible, but its effectiveness in this exact configuration still needs to be verified.
 
 ---
 
 # Construction plan
 
-The German original drawing is the current blueprint:
-
 <p align="center">
-  <img src="docs/construction-plan.png" alt="Didgeridoo mute construction plan">
+  <img src="docs/construction-plan-en.jpg" alt="Didgeridoo Practice Mute construction plan, version 0.1">
 </p>
 
-<p align="center"><em>Construction plan v1.0 — compact DN75 design. All dimensions in millimetres. Scale on the drawing is 1:2 unless noted otherwise.</em></p>
+<p align="center"><em>English construction plan v0.1 — DN125 design concept / pre-prototype. Dimensions are preliminary and may change after testing.</em></p>
 
-The drawing still contains a printed “private, non-commercial use” note. That note is **superseded** by the open-hardware licence of this repository. See [License](#license).
+Exploded parts on the drawing:
+
+1. Bell adapter (EVA foam / EPDM)
+2. Main housing (DN125 pipe)
+3. Acoustic absorber (foam / PET felt)
+4. Perforated inner tube (Ø50 mm)
+5. Acoustic absorber (foam / PET felt)
+6. End cap (with outlet)
+7. Outlet insert (Ø32 / Ø40 / Ø50 mm)
+
+On the end-cap side view the drawing also prints **180 mm (total length)**. That label does not match the cross section or the dimension table (**400 mm housing / ~440 mm overall**). This README uses the cross section and the main-dimensions table.
 
 ---
 
-## Main dimensions
+## Main dimensions (preliminary values)
 
-Example in the drawing: didgeridoo **outside diameter 60 mm**.
+| Component | Specification | Length / size |
+| --------- | ------------- | ------------- |
+| Main housing | DN125 PP/PVC/HT pipe | **400 mm** |
+| Housing diameter (o.d.) | approx. | **125 mm** |
+| Bell adapter | EVA foam / EPDM | **70–105 mm** inner Ø |
+| Insertion depth (didgeridoo) | | **40 mm** |
+| Expansion chamber | | **80 mm** |
+| Absorber section | | **230 mm** |
+| Outlet section | | **50 mm** |
+| Inner tube | Ø50 mm pipe | **250 mm** |
+| Perforation | Ø6 mm holes, staggered | **~15 mm** spacing |
+| Absorber thickness | | **20–25 mm** |
+| Outlet (initial tests) | interchangeable insert | **Ø50 / Ø40 / Ø32 mm** |
+| Total length | | **~440 mm** |
 
-| Part | Specification |
-| ---- | ------------- |
-| Main housing | HT pipe **DN75**, length **180 mm** |
-| Typical outside diameter | approx. **78 mm** |
-| Typical inside diameter | approx. **74 mm** |
-| Front foam ring | Ø74 mm, thickness **40 mm**, centre hole **Ø40 mm** |
-| Inner tube | HT pipe **DN50**, length **80 mm** |
-| Perforation | **Ø8 mm**, pitch approx. **15 mm**, 3 staggered rows of 6 holes |
-| Rear foam block | Ø74 mm, thickness **40 mm**, centre hole **Ø40 mm** |
-| End cap | HT cap **DN75** |
-| Outlet pipe | HT pipe **DN25**, length **20 mm** (inner approx. Ø20 mm, outer approx. Ø26 mm) |
-| Hose clamp | stainless, **60–80 mm** |
-| Total length | **180 mm** |
-
-Axial layout of the 180 mm housing:
-
-```text
- 40 mm          80 mm           40 mm      20 mm
- front foam     inner tube      rear foam  outlet
-<--------------------- 180 mm --------------------->
-```
-
-**These dimensions are the current starting values for prototype construction.** They are not yet independently optimised in this repository.
+**These dimensions are preliminary design values and may change after testing.**
 
 ---
 
 ## Proposed cross section
 
 ```text
- DIDGERIDOO                    PRACTICE MUTE (DN75)
+ DIDGERIDOO                         PRACTICE MUTE
 
-     Bell ~Ø60
-       ||     40 mm     80 mm          40 mm    20 mm
-=======||================================================
-  hose ||   [ foam ] [ perforated DN50 ] [ foam ] | DN25 --> OUT
-  clamp||   [ Ø40  ] [ holes Ø8 mm     ] [ Ø40  ] |
-=======||================================================
-              <------------- DN75 / 180 mm ------------>
+       Bell
+        /\     40 mm    80 mm         200 mm            50 mm
+=======/  \====================================================
+      \    / |                   ___________________
+       \__/  |                  /                   \
+      EVA    |                 |   Acoustic foam     |
+      adapter|                 |  ################   |
+             |                 |  # ............ #   |
+             |                 |  # : Ø50 tube  : #---+----> OUT
+             |                 |  # :perforated : #   |
+             |                 |  # ............ #   |
+             |                 |  ################   |
+             |                  \___________________/
+===============================================================
+             <----------- DN125 / 400 mm housing ------------>
+             <-------------- ~440 mm total length ----------->
 ```
 
 ---
 
-# Materials / bill of materials
+# Proposed materials
 
-Example prices from the construction plan (EUR, approximate):
+| Part | Description |
+| ---- | ----------- |
+| Main tube | DN125 HT/PP/PVC pipe |
+| Rear cap | DN125 end cap |
+| Inner tube | Ø50 mm PP/PVC pipe |
+| Bell adapter | EVA foam, EPDM or similar |
+| Absorber | PET acoustic felt or open-cell acoustic foam |
+| Protective mesh | Nylon or stainless steel mesh |
+| Sealant | Neutral silicone, polyurethane adhesive or similar |
+| Outlet insert | PVC/PP disc or pipe reducer, Ø50 / Ø40 / Ø32 mm |
 
-| No. | Part | Specification | Qty | Approx. EUR |
-| --: | ---- | ------------- | --: | ----------: |
-| 1 | Outer tube | HT pipe DN75, 180 mm | 1 | 3.00 |
-| 2 | Front foam ring | open-cell acoustic foam, Ø74 × 40 mm, hole Ø40 mm | 1 | 2.00 |
-| 3 | Inner tube | HT pipe DN50, 80 mm, Ø8 mm holes at 15 mm pitch | 1 | 1.50 |
-| 4 | Rear foam block | open-cell acoustic foam, Ø74 × 40 mm, hole Ø40 mm | 1 | 2.00 |
-| 5 | End cap | HT cap DN75 | 1 | 1.50 |
-| 6 | Outlet pipe | HT pipe DN25, 20 mm | 1 | 0.50 |
-| 7 | Hose clamp | stainless, 60–80 mm | 1 | 2.00 |
-|  |  | **Estimated total** |  | **12.50** |
-
-Use **open-cell acoustic foam** (for example 20–30 kg/m³). Closed-cell PE foam is not a substitute.
-
-Do not use loose glass wool or mineral wool: fibres could enter the airflow.
+Loose glass wool or mineral wool should not be used, because fibres could enter the airflow.
 
 ---
 
-# Bell coupling
+# Bell adapter (EVA / EPDM)
 
-The drawing uses a **hose clamp** around the DN75 housing and the didgeridoo, not a hard plastic bite on the instrument.
+The didgeridoo should not be clamped directly against hard plastic.
 
-The example instrument is **Ø60 mm outside**. The specified clamp range is **60–80 mm**.
+A flexible EVA or EPDM adapter is proposed to provide sealing, isolation, protection of the instrument, and adaptation to different bell sizes.
 
-For other bell sizes:
+The adapter opening should be about **2–4 mm smaller** than the bell diameter. Do not use excessive force.
 
-* a smaller or larger clamp
-* a thin foam or rubber sleeve between clamp and instrument
-* later: 3D-printed or EVA/EPDM adapters
+| Didgeridoo bell Ø | Adapter hole Ø |
+| ----------------: | -------------: |
+|            70 mm |       66–68 mm |
+|            80 mm |       76–78 mm |
+|            90 mm |       86–88 mm |
+|           100 mm |       96–98 mm |
 
-The didgeridoo should not be forced against sharp plastic edges.
+These dimensions will need to be verified with different bell shapes and materials.
 
 ---
 
@@ -188,10 +201,13 @@ The didgeridoo should not be forced against sharp plastic edges.
 
 From the construction plan:
 
-* HT DN50, length **80 mm**
-* hole diameter **8 mm**
-* spacing along the tube: 10 / 15 / 15 / 15 / 15 / 10 mm
-* **3 staggered rows, 6 holes per row** (18 holes)
+* outside diameter: **Ø50 mm**
+* length: **250 mm**
+* perforated length: **200 mm**
+* hole diameter: **Ø6 mm**
+* hole spacing: approximately **15 mm**
+* staggered rows
+* approximately **80–120 holes**
 
 ```text
    o     o     o
@@ -199,26 +215,30 @@ From the construction plan:
    o     o     o
 ```
 
-The hole area is large compared with the tube bore, so the perforations themselves should not be the main airflow restriction. Actual back pressure still needs to be measured.
+For reference:
+
+```text
+Ø50 mm tube area ≈ 1960 mm²
+100 × Ø6 mm holes ≈ 2830 mm²
+```
+
+This should keep the perforations from becoming a major airflow restriction. Actual pressure behaviour still needs to be measured.
 
 ---
 
-# Adjustable outlet — guide values
+# Adjustable outlet — experimental values
 
-The default outlet on the drawing is **DN25 / 20 mm long**.
+Three interchangeable inserts are proposed for the first prototype tests:
 
-Smaller outlets are expected to be quieter and to add more back pressure:
+| Test | Outlet | Expected behaviour |
+| ---- | -----: | ------------------ |
+| OPEN | Ø50 mm | lowest restriction |
+| MEDIUM | Ø40 mm | intermediate |
+| QUIET | Ø32 mm | more attenuation, probably more back pressure |
 
-| Outlet Ø | Loudness reduction (guide) | Back pressure (guide) |
-| -------: | -------------------------- | --------------------- |
-| 25 mm | −10 to −15 dB | low |
-| 20 mm | −15 to −20 dB | moderate |
-| 15 mm | −20 to −25 dB | noticeable |
-| 10 mm | −25 to −30 dB | high |
+These descriptions are **expectations only**. No noise-reduction figure in dB is claimed on the English construction plan.
 
-These figures come from the construction plan and are marked there as **experience / guide values**. They can vary with the didgeridoo, foam, room and how hard you play.
-
-They are **not** independent laboratory measurements published by this repository. Any later dB numbers measured here will be labelled as measured results.
+The actual relationship between attenuation and back pressure will be measured during prototype testing.
 
 Do not close the outlet completely. Free airflow matters for playing feel and safety.
 
@@ -226,43 +246,44 @@ Do not close the outlet completely. Free airflow matters for playing feel and sa
 
 # Assembly
 
-1. Cut the DN75 housing to **180 mm**.
-2. Cut the DN50 inner tube to **80 mm**.
-3. Drill Ø8 mm holes as in the drawing (3 staggered rows).
-4. Slide the **front foam ring** onto the inner tube.
-5. Insert inner tube plus front foam into the housing, leaving about **40 mm** to the front edge for the bell.
-6. Insert the **rear foam block**.
-7. Glue the DN75 end cap (HT solvent weld or silicone; airtight on the cap joint).
-8. Glue the **20 mm DN25** outlet into the end cap.
-9. Fit the hose clamp. Optionally wrap the outside with tape, neoprene or felt.
-10. Make sure foam cannot enter the airflow path, and start testing with the **largest** outlet.
-
-The foam should stay removable for drying and cleaning.
+1. Cut the DN125 housing to approximately **400 mm**.
+2. Prepare the front plate for the didgeridoo bell adapter.
+3. Cut the Ø50 mm inner tube to approximately **250 mm**.
+4. Drill Ø6 mm holes over approximately **200 mm**.
+5. Wrap the perforated section with thin protective mesh.
+6. Install approximately **20–25 mm** of acoustic absorber.
+7. Mount the inner tube centrally inside the main housing.
+8. Leave approximately **80 mm of free expansion space** behind the didgeridoo bell.
+9. Install the rear cap.
+10. Fit a replaceable or adjustable outlet insert.
+11. Ensure that absorber material cannot enter the airflow.
+12. Begin experimental testing with the **largest** outlet (Ø50 mm).
 
 ---
 
 # Planned prototype tests
 
-Compare at least:
+The drawing compares:
 
 ```text
-Test A: no mute
-Test B: Ø25 mm outlet
-Test C: Ø20 mm outlet
-Test D: Ø15 mm outlet
-Test E: Ø10 mm outlet
+Test A: no mute          (baseline)
+Test B: Ø50 mm outlet    (open)
+Test C: Ø40 mm outlet    (medium)
+Test D: Ø32 mm outlet    (quiet)
 ```
 
-For each configuration, note:
+The printed test block on the sheet labels A / Ø50 / Ø32. The outlet-insert panel also includes **Ø40 mm (medium)**, so all three inserts should be tested.
+
+For each configuration, document:
 
 * perceived volume
 * playing comfort
 * back pressure
-* response of the fundamental
-* circular breathing
-* vocalizations
-* harmonics
-* condensation
+* response of the fundamental note
+* ease of circular breathing
+* effect on vocalizations
+* effect on harmonics
+* condensation behaviour
 
 ---
 
@@ -293,19 +314,22 @@ Repeat measurements where possible.
 
 # Acoustic expectations
 
-No certified noise-reduction figure is claimed.
+At this stage **no specific noise-reduction figure is claimed**.
 
-The compact mute is expected to affect **higher harmonics, buzz and brightness** more easily than the very low fundamental.
+The design is expected to affect higher harmonics more easily than the very low fundamental.
 
-Possible effects:
+Possible reductions may occur in:
 
-* less buzzing
-* darker / quieter practice sound
-* less attack and breath noise
-* lower perceived loudness
-* some extra back pressure, especially with small outlets
+* buzzing
+* higher harmonics
+* attack noise
+* breath noise
+* perceived brightness
+* overall subjective loudness
 
-How large those effects are in this exact build still needs to be measured.
+Effectiveness is hypothetical until prototype measurements are available.
+
+Any future dB figures published here will be identified as **measured results**, not design estimates.
 
 ---
 
@@ -317,77 +341,81 @@ Do not use the device if:
 
 * airflow becomes severely restricted
 * breathing feels uncomfortable
-* excessive pressure develops
+* excessive back pressure develops
 * parts become loose
 * absorber material can enter the airflow
 
-Use only clean, non-toxic materials in the airflow path.
+Use only clean, non-toxic materials near the airflow path.
 
-The mute must never form an airtight closure.
-
-The construction plan marks the device as a **practice** mute, not as a stage mute for microphone use.
+Never create an airtight seal.
 
 ---
 
 # Cleaning
 
-Keep the design serviceable.
+The design should remain serviceable and removable.
 
-Condensation is expected:
+Because condensation is expected during playing:
 
-* dry the mute after use
-* use removable foam
+* allow the device to dry after use
+* use removable absorber material where practical
 * clean the inner tube periodically
-* inspect for mould
-* replace contaminated foam
+* inspect for mould or contamination
+* replace contaminated absorber material
 
 ---
 
 # Planned development
 
-Possible later versions:
+Possible later versions may investigate:
 
-* other outlet diameters (about 15–25 mm as on the drawing)
-* longer housing (for example DN75 × 250 mm) or a second chamber
+* adjustable iris outlet
+* interchangeable absorber cartridges
 * 3D-printed bell adapters
-* interchangeable foam cartridges
-* different housing diameters, including a larger DN125 experiment
-* Helmholtz or quarter-wave resonators
+* different expansion-chamber volumes
+* different housing diameters, including the compact DN75 variant in the German documentation
+* Helmholtz resonators
+* quarter-wave resonators
+* multi-stage absorber chambers
+* internal baffles
 * condensation collection
-* low-back-pressure variants
+* optimized low-back-pressure variants
 
 ---
 
 # Development stages
 
 ```text
-v1.0-plan   Compact DN75 construction plan (current)
-     ↓
-v1.1        First physical prototype from this plan
-     ↓
-v1.2        Independent acoustic measurements
-     ↓
-v1.3        Geometry / foam / outlet optimisation
-     ↓
-v2.0        Tested and documented design
+v0.1  Design concept / preliminary blueprint   ← current
+ ↓
+v0.2  First physical prototype
+ ↓
+v0.3  Initial acoustic measurements
+ ↓
+v0.4  Geometry and absorber optimization
+ ↓
+v0.5  Second-generation prototype
+ ↓
+v1.0  Tested and documented design
 ```
 
-This roadmap may change with experimental results.
+This roadmap may change depending on experimental results.
 
 ---
 
 # Contributing
 
-Independent prototypes are welcome.
+Experiments and independent prototypes are welcome.
 
-Especially useful:
+Especially useful contributions include:
 
-* photos of builds
+* photos of prototypes
 * SPL measurements
-* frequency spectra
-* back-pressure notes
-* other foams and dimensions
-* 3D-printable adapters
+* frequency-spectrum measurements
+* back-pressure measurements
+* tests with different absorber materials
+* alternative dimensions
+* 3D-printable components
 * tests with different didgeridoos
 
 Please distinguish **design assumptions**, **subjective observations** and **measured results**.
@@ -396,7 +424,9 @@ Please distinguish **design assumptions**, **subjective observations** and **mea
 
 # Disclaimer
 
-This repository contains an **experimental DIY construction plan**, not a certified product.
+This repository currently contains an **experimental design concept**, not a validated finished product.
+
+The design has not been certified as a medical, acoustic or safety device.
 
 Use of any prototype is at your own risk.
 
@@ -412,15 +442,13 @@ No guarantee is provided regarding:
 
 # License
 
-Hardware design, drawings and documentation in this repository are licensed under the **CERN Open Hardware Licence Version 2 – Permissive (CERN-OHL-P-2.0)**.
+Mechanical designs, drawings and CAD files are licensed under the **CERN Open Hardware Licence Version 2 – Permissive (CERN-OHL-P-2.0)**.
 
-That matches the **Open Hardware** mark on the project logo.
-
-The construction drawing still shows an older “private, non-commercial use” line. The repository licence above is the binding one.
-
-See the [`LICENSE`](./LICENSE) file.
+That matches the construction plan and the **Open Hardware** mark on the project logo.
 
 Software added later may use a separate software licence.
+
+See [`LICENSE`](./LICENSE).
 
 ---
 
@@ -430,9 +458,10 @@ Software added later may use a separate software licence.
 | ---- | ---- |
 | [`docs/logo.png`](./docs/logo.png) | Project logo (transparent) |
 | [`docs/logo.jpg`](./docs/logo.jpg) | Project logo (original artwork) |
-| [`docs/construction-plan.png`](./docs/construction-plan.png) | Construction plan v1.0 (German original) |
+| [`docs/construction-plan-en.jpg`](./docs/construction-plan-en.jpg) | English construction plan v0.1 (DN125) |
+| [`docs/construction-plan.png`](./docs/construction-plan.png) | German construction plan (compact DN75 variant) |
 | [`README.md`](./README.md) | English documentation |
 | [`README_DE.md`](./README_DE.md) | German documentation |
 | [`LICENSE`](./LICENSE) | CERN-OHL-P-2.0 |
 
-**Build from the construction plan, measure openly, and treat the dB table as a starting guide until this repository has its own measurements.**
+**Open source · Experimental · Community driven.** Results, failures, modifications and updated blueprints will be documented in this repository.
