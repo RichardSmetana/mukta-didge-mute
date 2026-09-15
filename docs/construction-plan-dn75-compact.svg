@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1220" width="1600" height="1220" role="img" aria-labelledby="title desc">
+  <title id="title">Didgeridoo Practice Mute  -  DN75 Compact v0.1 construction plan</title>
+  <desc id="desc">Experimental compact draft / pre-prototype. Not yet tested. Drawing not to scale. Use stated millimetre dimensions. Licensed under CERN-OHL-P-2.0. 180 mm is the housing body length, not the assembled total length.</desc>
+  <style>
+    .title { font: 700 28px Arial, Helvetica, sans-serif; fill: #16324f; }
+    .slogan { font: 700 16px Arial, Helvetica, sans-serif; fill: #215a8c; }
+    .h1 { font: 700 14px Arial, Helvetica, sans-serif; fill: #ffffff; }
+    .h2 { font: 700 13px Arial, Helvetica, sans-serif; fill: #16324f; }
+    .t { font: 12px Arial, Helvetica, sans-serif; fill: #243040; }
+    .ts { font: 11px Arial, Helvetica, sans-serif; fill: #243040; }
+    .tm { font: 10px Arial, Helvetica, sans-serif; fill: #243040; }
+    .tw { font: 11px Arial, Helvetica, sans-serif; fill: #ffffff; }
+    .dim { font: 700 11px Arial, Helvetica, sans-serif; fill: #215a8c; }
+    .note { font: 10px Arial, Helvetica, sans-serif; fill: #5a6570; }
+  </style>
+  <rect width="1600" height="1220" fill="#f4f1e8"/>
+  <rect x="16" y="16" width="1568" height="1188" rx="10" fill="#fbfaf6" stroke="#16324f" stroke-width="3"/>
+
+  <text class="title" x="36" y="50">Didgeridoo Practice Mute  -  Compact DN75</text>
+  <text class="slogan" x="36" y="76">Quieter practice. More music.</text>
+  <text class="t" x="36" y="98">DN75-Compact-v0.1 · Experimental compact draft · DIY · Open Hardware</text>
+
+  <rect x="980" y="26" width="280" height="78" rx="6" fill="#14532d"/>
+  <text class="tw" x="994" y="50">DESIGN CONCEPT / PRE-PROTOTYPE</text>
+  <text class="tw" x="994" y="70">NOT YET TESTED</text>
+  <text class="tw" x="994" y="90" style="font-size:10px">Not a finished Version 1.0</text>
+
+  <rect x="1272" y="26" width="292" height="78" rx="6" fill="#16324f"/>
+  <text class="tw" x="1286" y="50">DRAWING NOT TO SCALE</text>
+  <text class="tw" x="1286" y="70">USE STATED DIMENSIONS</text>
+  <text class="tw" x="1286" y="90" style="font-size:10px">All values in millimetres</text>
+
+  <rect x="28" y="120" width="1544" height="28" rx="4" fill="#215a8c"/>
+  <text class="h1" x="40" y="139">Exploded parts (schematic  -  not to scale)</text>
+
+  <g transform="translate(36,158)">
+    <rect x="0" y="36" width="64" height="48" rx="8" fill="#c4a574" stroke="#6b4a28"/>
+    <text class="tm" x="4" y="24">Bell ~Ø60 ex.</text>
+    <circle cx="100" cy="60" r="11" fill="#215a8c"/><text class="tw" x="97" y="64">1</text>
+    <rect x="118" y="32" width="28" height="56" rx="6" fill="#5b7a4a"/>
+    <text class="tm" x="108" y="106">Bell adapter</text>
+    <text class="note" x="100" y="120">EVA/EPDM/neoprene</text>
+    <circle cx="188" cy="60" r="11" fill="#215a8c"/><text class="tw" x="185" y="64">2</text>
+    <rect x="206" y="20" width="120" height="80" rx="8" fill="#8b939c" stroke="#4d555c"/>
+    <text class="tm" x="218" y="64">DN75 housing</text>
+    <text class="note" x="214" y="118">180 mm BODY</text>
+    <circle cx="364" cy="60" r="11" fill="#215a8c"/><text class="tw" x="361" y="64">3</text>
+    <rect x="382" y="30" width="34" height="60" rx="6" fill="#2f2f2f"/>
+    <text class="tm" x="370" y="106">Front foam</text>
+    <text class="note" x="362" y="120">hole Ø48-50</text>
+    <circle cx="456" cy="60" r="11" fill="#215a8c"/><text class="tw" x="453" y="64">4</text>
+    <rect x="474" y="36" width="70" height="48" rx="6" fill="#6d737a"/>
+    <circle cx="490" cy="50" r="2" fill="#d9dde0"/><circle cx="508" cy="50" r="2" fill="#d9dde0"/><circle cx="526" cy="50" r="2" fill="#d9dde0"/>
+    <circle cx="499" cy="60" r="2" fill="#d9dde0"/><circle cx="517" cy="60" r="2" fill="#d9dde0"/>
+    <circle cx="490" cy="70" r="2" fill="#d9dde0"/><circle cx="508" cy="70" r="2" fill="#d9dde0"/><circle cx="526" cy="70" r="2" fill="#d9dde0"/>
+    <text class="tm" x="470" y="106">Inner DN50</text>
+    <text class="note" x="470" y="120">80 mm · Ø8</text>
+    <circle cx="584" cy="60" r="11" fill="#215a8c"/><text class="tw" x="581" y="64">5</text>
+    <rect x="602" y="30" width="34" height="60" rx="6" fill="#2f2f2f"/>
+    <text class="tm" x="590" y="106">Rear foam</text>
+    <text class="note" x="586" y="120">hole ~Ø26</text>
+    <circle cx="676" cy="60" r="11" fill="#215a8c"/><text class="tw" x="673" y="64">6</text>
+    <rect x="694" y="24" width="44" height="72" rx="8" fill="#7c848c"/>
+    <text class="tm" x="690" y="106">End cap</text>
+    <circle cx="778" cy="60" r="11" fill="#215a8c"/><text class="tw" x="775" y="64">7</text>
+    <rect x="796" y="44" width="36" height="32" rx="4" fill="#6a727a"/>
+    <text class="tm" x="786" y="106">DN25 outlet</text>
+    <text class="note" x="786" y="120">20 mm proj.</text>
+    <circle cx="872" cy="60" r="11" fill="#215a8c"/><text class="tw" x="869" y="64">8</text>
+    <ellipse cx="910" cy="60" rx="22" ry="14" fill="none" stroke="#16324f" stroke-width="3"/>
+    <text class="tm" x="888" y="106">Hose clamp</text>
+    <text class="note" x="870" y="120">secures only</text>
+  </g>
+
+  <rect x="28" y="292" width="980" height="28" rx="4" fill="#215a8c"/>
+  <text class="h1" x="40" y="311">Cross section  -  180 mm is the housing BODY, not assembled total length</text>
+
+  <g transform="translate(48,336)">
+    <rect x="90" y="40" width="180" height="86" rx="6" fill="#cfd5db" stroke="#16324f" stroke-width="2"/>
+    <rect x="96" y="48" width="28" height="70" rx="4" fill="#5b7a4a"/>
+    <rect x="118" y="50" width="40" height="66" rx="4" fill="#2f2f2f"/>
+    <rect x="158" y="56" width="80" height="54" rx="4" fill="#6d737a"/>
+    <g fill="#d9dde0">
+      <circle cx="174" cy="70" r="2"/><circle cx="190" cy="70" r="2"/><circle cx="206" cy="70" r="2"/><circle cx="222" cy="70" r="2"/>
+      <circle cx="182" cy="82" r="2"/><circle cx="198" cy="82" r="2"/><circle cx="214" cy="82" r="2"/>
+      <circle cx="174" cy="94" r="2"/><circle cx="190" cy="94" r="2"/><circle cx="206" cy="94" r="2"/><circle cx="222" cy="94" r="2"/>
+    </g>
+    <rect x="228" y="50" width="36" height="66" rx="4" fill="#2f2f2f"/>
+    <rect x="270" y="58" width="28" height="50" rx="4" fill="#7c848c"/>
+    <rect x="292" y="70" width="20" height="26" rx="3" fill="#6a727a"/>
+    <text class="tm" x="0" y="86">bell</text>
+    <text class="dim" x="92" y="30">adapter</text>
+    <text class="dim" x="122" y="30">40 mm</text>
+    <text class="note" x="114" y="16">front foam</text>
+    <text class="dim" x="174" y="30">80 mm</text>
+    <text class="note" x="158" y="16">perforated DN50</text>
+    <text class="dim" x="230" y="30">40 mm</text>
+    <text class="note" x="222" y="16">rear foam</text>
+    <text class="dim" x="292" y="62">~20 mm</text>
+    <text class="note" x="318" y="84">outlet projection</text>
+    <line x1="90" y1="142" x2="270" y2="142" stroke="#215a8c" stroke-width="1.5"/>
+    <text class="dim" x="118" y="158">180 mm housing body</text>
+    <line x1="90" y1="172" x2="312" y2="172" stroke="#16324f" stroke-width="1.5"/>
+    <text class="dim" x="96" y="188">assembled total &gt; 180 mm (end cap + ~20 mm outlet; exact cap geometry unmeasured)</text>
+    <text class="note" x="90" y="210">No dedicated empty expansion chamber is claimed. Free volume around the perforated tube may act as expansion / absorption volume. Axial fit-up inside the 180 mm body is preliminary.</text>
+    <text class="note" x="90" y="226">Housing approx. Ø78 mm o.d. / Ø74 mm i.d. Inner tube HT DN50, approx. Ø50 mm o.d.</text>
+  </g>
+
+  <rect x="1020" y="292" width="552" height="28" rx="4" fill="#215a8c"/>
+  <text class="h1" x="1032" y="311">Length  -  do not call this 180 mm overall</text>
+  <rect x="1020" y="328" width="552" height="248" rx="6" fill="#ffffff" stroke="#c5d0dc"/>
+  <text class="h2" x="1036" y="354">Canonical compact lengths</text>
+  <text class="t" x="1036" y="378">Housing body: 180 mm</text>
+  <text class="t" x="1036" y="398">Outlet projection: approx. 20 mm</text>
+  <text class="t" x="1036" y="418">Overall assembled length: greater than 180 mm</text>
+  <text class="t" x="1036" y="438">Depends on the selected DN75 end cap</text>
+  <text class="h2" x="1036" y="468">Not claimed</text>
+  <text class="t" x="1036" y="492">No precise assembled total length</text>
+  <text class="t" x="1036" y="512">No Version 1.0 product status</text>
+  <text class="t" x="1036" y="532">No measured dB reduction</text>
+  <text class="t" x="1036" y="552">No print scale (not 1:2)</text>
+
+  <rect x="28" y="592" width="760" height="28" rx="4" fill="#215a8c"/>
+  <text class="h1" x="40" y="611">Foam and inner tube  -  corrected openings</text>
+  <rect x="28" y="628" width="760" height="268" rx="6" fill="#ffffff" stroke="#c5d0dc"/>
+  <text class="ts" x="44" y="652">Front foam ring: approx. Ø74 mm outside, 40 mm axial thickness</text>
+  <text class="ts" x="44" y="672">Front inner hole: approx. Ø48-50 mm so it can fit over a DN50 (~Ø50 mm) tube</text>
+  <text class="ts" x="44" y="692">The superseded drawing used Ø40 mm; that hole cannot accept the inner tube.</text>
+  <text class="ts" x="44" y="712">Exact front-hole diameter depends on foam compressibility and must be tested.</text>
+  <text class="ts" x="44" y="740">Rear foam block: approx. Ø74 mm outside, 40 mm axial thickness</text>
+  <text class="ts" x="44" y="760">Rear central hole: approx. Ø26 mm (DN25 outlet outside diameter)</text>
+  <text class="ts" x="44" y="788">Inner tube: HT DN50, 80 mm long, Ø8 mm holes, ~15 mm pitch</text>
+  <text class="ts" x="44" y="808">3 staggered rows × 6 holes = 18 holes total</text>
+  <text class="ts" x="44" y="828">Absorber: open-cell acoustic foam or PET acoustic felt</text>
+  <text class="note" x="44" y="852">Closed-cell PE foam is not an equivalent acoustic absorber.</text>
+  <text class="note" x="44" y="870">Distinguish ACOUSTIC ABSORBER from BELL ADAPTER / SEAL.</text>
+
+  <rect x="804" y="592" width="380" height="28" rx="4" fill="#215a8c"/>
+  <text class="h1" x="816" y="611">Bell connection (corrected)</text>
+  <rect x="804" y="628" width="380" height="268" rx="6" fill="#ffffff" stroke="#c5d0dc"/>
+  <text class="ts" x="820" y="652">A hose clamp alone cannot bridge a</text>
+  <text class="ts" x="820" y="670">~Ø60 mm bell to a ~Ø74 mm housing I.D.</text>
+  <text class="h2" x="820" y="696">Required flexible seal / adapter</text>
+  <text class="ts" x="820" y="718">EVA / EPDM / neoprene sleeve</text>
+  <text class="ts" x="820" y="738">Example (preliminary):</text>
+  <text class="ts" x="820" y="758">Ø60 mm bell, ~Ø74 mm housing I.D.</text>
+  <text class="ts" x="820" y="778">-> about 7 mm radial adapter thickness</text>
+  <text class="ts" x="820" y="806">Hose clamp: secures the assembly</text>
+  <text class="ts" x="820" y="826">It is not the diameter-bridging part.</text>
+  <text class="note" x="820" y="854">Adapter geometry remains experimental.</text>
+  <text class="note" x="820" y="872">Do not force the instrument onto plastic.</text>
+
+  <rect x="1200" y="592" width="372" height="28" rx="4" fill="#215a8c"/>
+  <text class="h1" x="1212" y="611">Outlets  -  EXPECTED, NOT MEASURED</text>
+  <rect x="1200" y="628" width="372" height="268" rx="6" fill="#ffffff" stroke="#c5d0dc"/>
+  <text class="h2" x="1216" y="652">Qualitative only  -  no dB figures</text>
+  <text class="ts" x="1216" y="676">Ø25 mm  low restriction, lower attenuation</text>
+  <text class="ts" x="1216" y="696">Ø20 mm  moderate restriction, higher att.</text>
+  <text class="ts" x="1216" y="716">Ø15 mm  significant restriction, higher att.</text>
+  <text class="ts" x="1216" y="736">Ø10 mm  very high restriction, experimental</text>
+  <text class="h2" x="1216" y="766">First practical tests</text>
+  <text class="ts" x="1216" y="786">Recommend 25 / 20 / 15 mm</text>
+  <text class="ts" x="1216" y="806">Ø10 mm: extreme experiment only</text>
+  <text class="ts" x="1216" y="826">Not recommended as the first test</text>
+  <text class="note" x="1216" y="854">Never close the outlet completely.</text>
+  <text class="note" x="1216" y="872">CERN-OHL-P-2.0 · no non-commercial limit</text>
+
+  <rect x="28" y="912" width="500" height="28" rx="4" fill="#215a8c"/>
+  <text class="h1" x="40" y="931">Planned tests (no results yet)</text>
+  <rect x="28" y="948" width="500" height="168" rx="6" fill="#ffffff" stroke="#c5d0dc"/>
+  <text class="ts" x="44" y="972">A  no mute (baseline)</text>
+  <text class="ts" x="44" y="990">B  Ø25 mm</text>
+  <text class="ts" x="44" y="1008">C  Ø20 mm</text>
+  <text class="ts" x="44" y="1026">D  Ø15 mm</text>
+  <text class="ts" x="44" y="1044">E  Ø10 mm  -  extreme restriction only</text>
+  <text class="note" x="44" y="1068">Record sound level, spectrum, fundamental,</text>
+  <text class="note" x="44" y="1084">harmonics, back pressure, comfort, circular</text>
+  <text class="note" x="44" y="1100">breathing, vocalisations, condensation.</text>
+
+  <rect x="544" y="912" width="500" height="28" rx="4" fill="#215a8c"/>
+  <text class="h1" x="556" y="931">Safety (conservative)</text>
+  <rect x="544" y="948" width="500" height="168" rx="6" fill="#fff8e8" stroke="#c5d0dc"/>
+  <text class="ts" x="560" y="972">Never completely block the outlet.</text>
+  <text class="ts" x="560" y="990">Stop if breathing is uncomfortable.</text>
+  <text class="ts" x="560" y="1008">Stop if back pressure feels excessive.</text>
+  <text class="ts" x="560" y="1026">Keep loose fibres out of the airflow.</text>
+  <text class="ts" x="560" y="1044">Do not use loose glass or mineral wool.</text>
+  <text class="ts" x="560" y="1062">Use clean, non-toxic materials near airflow.</text>
+  <text class="ts" x="560" y="1080">Dry absorber after use; inspect for mould.</text>
+  <text class="note" x="560" y="1102">Not medically or acoustically certified.</text>
+
+  <rect x="1060" y="912" width="512" height="28" rx="4" fill="#215a8c"/>
+  <text class="h1" x="1072" y="931">Licence and project status</text>
+  <rect x="1060" y="948" width="512" height="168" rx="6" fill="#ffffff" stroke="#c5d0dc"/>
+  <text class="ts" x="1076" y="972">Open Hardware · CERN-OHL-P-2.0</text>
+  <text class="ts" x="1076" y="992">Project Version 0.1 · DN75-Compact-v0.1</text>
+  <text class="ts" x="1076" y="1012">Experimental compact alternative to DN125.</text>
+  <text class="ts" x="1076" y="1032">Does not make a didgeridoo completely silent.</text>
+  <text class="note" x="1076" y="1056">Future work: build, measure sound and back</text>
+  <text class="note" x="1076" y="1072">pressure, compare outlets and absorbers,</text>
+  <text class="note" x="1076" y="1088">analyse spectra, then revise dimensions.</text>
+  <text class="note" x="1076" y="1104">No private / non-commercial restriction.</text>
+
+  <text class="note" x="36" y="1188">Didgeridoo Practice Mute · DN75-Compact-v0.1 · experimental compact draft · drawing not to scale · millimetres · CERN-OHL-P-2.0 · DN125 is the primary variant.</text>
+</svg>
